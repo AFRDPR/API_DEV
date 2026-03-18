@@ -3,7 +3,7 @@ const app = express();
 
 // Ruta de ejemplo
 app.get('/api/hello', (req, res) => {
-  res.json({ message: 'Hola desde Render paps!' });
+  res.json({ message: 'Hola desde Render paps!!' });
 });
 
 // Puerto dinámico para Render o fijo en local
